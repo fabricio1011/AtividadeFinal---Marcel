@@ -14,7 +14,7 @@ app.use((request, response, next) =>{
    next()
 })
 
-const cursosAlunos = require('./funcoes')
+const cursosAlunos = require('./modulo/Api.js')
 
 app.get('/v1/lion-school/cursos',cors(), async function (request,response){
    let dados = cursosAlunos.getListaDeCursos()
