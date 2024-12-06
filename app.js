@@ -92,5 +92,5 @@ app.get('/v1/lion-school/alunos/cursos/:sigla', cors(), async function (request,
 
 
 app.listen('8080', function(){
-   console.log('API funcionando e aguardadndo requisições')
+   console.log('Aguardadndo requisições...')
 })
